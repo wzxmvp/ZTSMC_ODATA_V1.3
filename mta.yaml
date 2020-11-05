@@ -1,0 +1,33 @@
+ID: ZTSMC_ODATA
+_schema-version: '2.1'
+version: 0.0.1
+modules:
+  - name: db
+    type: hdb
+    path: db
+    requires:
+      - name: odata-hdi
+        properties:
+          TARGET_CONTAINER: '~{hdi-container-name}'
+      - name: odata-schema
+  - name: core_xsjs
+    type: nodejs
+    path: core_xsjs
+    provides:
+      - name: core_xsjs_api
+        properties:
+          url: '${default-url}'
+    requires:
+      - name: odata-hdi
+      - name: db
+      - name: odata-schema
+resources:
+  - name: odata-hdi
+    properties:
+      hdi-container-name: '${service-name}'
+    type: com.sap.xs.hdi-container
+  - name: odata-schema
+    type: org.cloudfoundry.existing-service
+    parameters:
+      service-name: odata-schema
+ 

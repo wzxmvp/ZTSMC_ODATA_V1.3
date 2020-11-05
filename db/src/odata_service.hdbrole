@@ -1,0 +1,11 @@
+{
+	"role": {
+		"name": "ZTSMC_ODATA.db::odata_service",
+		"schema_privileges": [{
+			"privileges": [
+				"SELECT", "ALTER", "INSERT", "DELETE", "UPDATE"
+			]
+		}]
+
+	}
+}

@@ -1,0 +1,3 @@
+service {
+    "ZTSMC_HDB_ODATA_SERVICE.DB.ZEC::ZTAB_EC_USER" as "EC_USER"  
+}

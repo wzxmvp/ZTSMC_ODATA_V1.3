@@ -1,0 +1,44 @@
+{
+  "ZTSMC_ODATA.db::ZTAB_EC_ORG_UNIT": {
+    "target": {
+      "object": "ZTAB_EC_ORG_UNIT",
+      "schema": "ZSCH_ODATA"
+    }
+  },
+  "ZTSMC_ODATA.db::ZTAB_EC_USER": {
+    "target": {
+      "object": "ZTAB_EC_USER",
+      "schema": "ZSCH_ODATA"
+    }
+  },
+  "ZTSMC_ODATA.db::ZTAB_LMS_ITEM": {
+    "target": {
+      "object": "ZTAB_LMS_ITEM",
+      "schema": "ZSCH_ODATA"
+    }
+  },
+  "ZTSMC_ODATA.db::ZTAB_LMS_EMP_IDP": {
+    "target": {
+      "object": "ZTAB_LMS_EMP_IDP",
+      "schema": "ZSCH_ODATA"
+    }
+  },
+  "ZTSMC_ODATA.db::ZTAB_LMS_EMP_TRAIN": {
+    "target": {
+      "object": "ZTAB_LMS_EMP_TRAIN",
+      "schema": "ZSCH_ODATA"
+    }
+  },
+  "ZTSMC_ODATA.db::ZTAB_LMS_INSTRUCTOR": {
+    "target": {
+      "object": "ZTAB_LMS_INSTRUCTOR",
+      "schema": "ZSCH_ODATA"
+    }
+  },
+  "ZTSMC_ODATA.db::ZTAB_LMS_LEARNING_HIS": {
+    "target": {
+      "object": "ZTAB_LMS_LEARNING_HIS",
+      "schema": "ZSCH_ODATA"
+    }
+  }
+}

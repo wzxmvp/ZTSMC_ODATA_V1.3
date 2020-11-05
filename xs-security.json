@@ -1,0 +1,16 @@
+{
+	"xsappname": "ZTSMC_ODATA",
+	"tenant-mode": "dedicated",
+	"description": "Security profile of called application",
+	"scopes": [{
+		"name": "uaa.user",
+		"description": "UAA"
+	}],
+	"role-templates": [{
+		"name": "ZTSMC_ODATA_UAA",
+		"description": "ZTSMC ODATA UAA",
+		"scope-references": [
+			"uaa.user"
+		]
+	}]
+}

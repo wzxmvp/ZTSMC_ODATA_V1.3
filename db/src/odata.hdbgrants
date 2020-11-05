@@ -1,0 +1,14 @@
+{
+	"odata-schema": {
+		"object_owner": {
+			"roles": [
+				"odata::external_access_g"
+			]
+		},
+		"application_user": {
+			"roles": [
+				"odata::external_access"
+			]
+		}
+	}
+}
